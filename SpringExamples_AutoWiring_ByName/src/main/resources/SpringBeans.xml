@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<bean id="person" class="com.tutorial.spring3.core.Person" autowire="byName" />
+	<bean id="person" class="com.tutorial.spring3.core.Person" autowire="byType" />
 		
 	<!-- <bean id="steal" class="com.tutorial.spring3.core.Ability" >
 		<property name="skill" value="Steal" />
